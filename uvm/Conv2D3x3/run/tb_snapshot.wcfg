@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_snapshot.wdb" id="1">
+         <top_modules>
+            <top_module name="env_pkg" />
+            <top_module name="load_test_pkg" />
+            <top_module name="rand_test_pkg" />
+            <top_module name="ref_model_pkg" />
+            <top_module name="seq_pkg" />
+            <top_module name="std" />
+            <top_module name="top" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,524.434 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,007.835 ns"></ZoomEndTime>
+      <Cursor1Time time="1,785.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="303"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/top/dut/i_aclk" type="logic">
+      <obj_property name="ElementShortName">i_aclk</obj_property>
+      <obj_property name="ObjectShortName">i_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/i_aresetn" type="logic">
+      <obj_property name="ElementShortName">i_aresetn</obj_property>
+      <obj_property name="ObjectShortName">i_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider67">
+      <obj_property name="label">Ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group73" type="group">
+      <obj_property name="label">AXI4 Lite</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group99" type="group">
+         <obj_property name="label">Write Addr</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top/dut/i_awvalid" type="logic">
+            <obj_property name="ElementShortName">i_awvalid</obj_property>
+            <obj_property name="ObjectShortName">i_awvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_awready" type="logic">
+            <obj_property name="ElementShortName">o_awready</obj_property>
+            <obj_property name="ObjectShortName">o_awready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_awaddr" type="array">
+            <obj_property name="ElementShortName">i_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">i_awaddr[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group100" type="group">
+         <obj_property name="label">Write Data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top/dut/i_wvalid" type="logic">
+            <obj_property name="ElementShortName">i_wvalid</obj_property>
+            <obj_property name="ObjectShortName">i_wvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_wready" type="logic">
+            <obj_property name="ElementShortName">o_wready</obj_property>
+            <obj_property name="ObjectShortName">o_wready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_wdata" type="array">
+            <obj_property name="ElementShortName">i_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">i_wdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_wstrb" type="array">
+            <obj_property name="ElementShortName">i_wstrb[3:0]</obj_property>
+            <obj_property name="ObjectShortName">i_wstrb[3:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group101" type="group">
+         <obj_property name="label">Write Response</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top/dut/o_bvalid" type="logic">
+            <obj_property name="ElementShortName">o_bvalid</obj_property>
+            <obj_property name="ObjectShortName">o_bvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_bready" type="logic">
+            <obj_property name="ElementShortName">i_bready</obj_property>
+            <obj_property name="ObjectShortName">i_bready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_bresp" type="array">
+            <obj_property name="ElementShortName">o_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">o_bresp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group102" type="group">
+         <obj_property name="label">Read Addr</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top/dut/i_arvalid" type="logic">
+            <obj_property name="ElementShortName">i_arvalid</obj_property>
+            <obj_property name="ObjectShortName">i_arvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_arready" type="logic">
+            <obj_property name="ElementShortName">o_arready</obj_property>
+            <obj_property name="ObjectShortName">o_arready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_araddr" type="array">
+            <obj_property name="ElementShortName">i_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">i_araddr[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group103" type="group">
+         <obj_property name="label">Read Data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top/dut/o_rvalid" type="logic">
+            <obj_property name="ElementShortName">o_rvalid</obj_property>
+            <obj_property name="ObjectShortName">o_rvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/i_rready" type="logic">
+            <obj_property name="ElementShortName">i_rready</obj_property>
+            <obj_property name="ObjectShortName">i_rready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_rdata" type="array">
+            <obj_property name="ElementShortName">o_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_rdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/o_rresp" type="array">
+            <obj_property name="ElementShortName">o_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">o_rresp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group104" type="group">
+      <obj_property name="label">Slave AXI4 Stream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/i_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">i_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">i_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/o_s_tready" type="logic">
+         <obj_property name="ElementShortName">o_s_tready</obj_property>
+         <obj_property name="ObjectShortName">o_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/i_s_tdata" type="array">
+         <obj_property name="ElementShortName">i_s_tdata[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_s_tdata[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group105" type="group">
+      <obj_property name="label">Master AXI4 Stream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/o_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">o_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">o_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/i_m_tready" type="logic">
+         <obj_property name="ElementShortName">i_m_tready</obj_property>
+         <obj_property name="ObjectShortName">i_m_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/o_m_tdata" type="array">
+         <obj_property name="ElementShortName">o_m_tdata[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_m_tdata[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top/dut/o_interrupt" type="logic">
+      <obj_property name="ElementShortName">o_interrupt</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider67">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="vbus70" type="vbus">
+         <obj_property name="label">r_control[3:0] (I, C, P, E)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_control[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_control[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_control[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_control[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus129" type="vbus">
+         <obj_property name="label">r_dim[31:16] (height)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_dim[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus112" type="vbus">
+         <obj_property name="label">r_dim[15:0] (width)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_dim[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_dim[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus196" type="vbus">
+         <obj_property name="label">r_sizes[31:16] (filters)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_sizes[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus179" type="vbus">
+         <obj_property name="label">r_sizes[15:0] (transfers)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_sizes[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_sizes[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus257" type="vbus">
+         <obj_property name="label">r_status[11:8] ( , , , I)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_status[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus252" type="vbus">
+         <obj_property name="label">r_status[7:4] ( , KE, IE, FE)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_status[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus246" type="vbus">
+         <obj_property name="label">r_status[3:0] (TE, HE, WE, Idle)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject fp_name="/top/dut/controller/r_status[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/r_status[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top/dut/controller/w_idle" type="logic">
+            <obj_property name="ElementShortName">w_idle</obj_property>
+            <obj_property name="ObjectShortName">w_idle</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top/dut/controller/fsm/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/controller/fsm/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group137" type="group">
+      <obj_property name="label">Parameters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top/dut/controller/r_param_valid" type="logic">
+         <obj_property name="ElementShortName">r_param_valid</obj_property>
+         <obj_property name="ObjectShortName">r_param_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_load_param" type="logic">
+         <obj_property name="ElementShortName">o_load_param</obj_property>
+         <obj_property name="ObjectShortName">o_load_param</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_pad" type="logic">
+         <obj_property name="ElementShortName">o_pad</obj_property>
+         <obj_property name="ObjectShortName">o_pad</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_width" type="array">
+         <obj_property name="ElementShortName">o_width[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_width[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_height" type="array">
+         <obj_property name="ElementShortName">o_height[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_height[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_transfers" type="array">
+         <obj_property name="ElementShortName">o_transfers[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_transfers[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_filters" type="array">
+         <obj_property name="ElementShortName">o_filters[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_filters[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group190" type="group">
+      <obj_property name="label">Internals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/controller/r_filter_count" type="array">
+         <obj_property name="ElementShortName">r_filter_count[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_filter_count[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/r_sel_filter" type="array">
+         <obj_property name="ElementShortName">r_sel_filter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sel_filter[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/r_transfer_count" type="array">
+         <obj_property name="ElementShortName">r_transfer_count[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_transfer_count[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/w_back_pressure" type="logic">
+         <obj_property name="ElementShortName">w_back_pressure</obj_property>
+         <obj_property name="ObjectShortName">w_back_pressure</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/i_next_window_valid" type="logic">
+         <obj_property name="ElementShortName">i_next_window_valid</obj_property>
+         <obj_property name="ObjectShortName">i_next_window_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/r_window_valid" type="logic">
+         <obj_property name="ElementShortName">r_window_valid</obj_property>
+         <obj_property name="ObjectShortName">r_window_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/i_last_window" type="logic">
+         <obj_property name="ElementShortName">i_last_window</obj_property>
+         <obj_property name="ObjectShortName">i_last_window</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/i_window_last_data" type="logic">
+         <obj_property name="ElementShortName">i_window_last_data</obj_property>
+         <obj_property name="ObjectShortName">i_window_last_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/i_last_window_result" type="logic">
+         <obj_property name="ElementShortName">i_last_window_result</obj_property>
+         <obj_property name="ObjectShortName">i_last_window_result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/w_done" type="logic">
+         <obj_property name="ElementShortName">w_done</obj_property>
+         <obj_property name="ObjectShortName">w_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/r_flush" type="logic">
+         <obj_property name="ElementShortName">r_flush</obj_property>
+         <obj_property name="ObjectShortName">r_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/r_cyclic" type="logic">
+         <obj_property name="ElementShortName">r_cyclic</obj_property>
+         <obj_property name="ObjectShortName">r_cyclic</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group154" type="group">
+      <obj_property name="label">Controls</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/controller/o_window_tvalid" type="logic">
+         <obj_property name="ElementShortName">o_window_tvalid</obj_property>
+         <obj_property name="ObjectShortName">o_window_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_kernel_tvalid" type="logic">
+         <obj_property name="ElementShortName">o_kernel_tvalid</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_sel" type="array">
+         <obj_property name="ElementShortName">o_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_sel_valid" type="logic">
+         <obj_property name="ElementShortName">o_sel_valid</obj_property>
+         <obj_property name="ObjectShortName">o_sel_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/i_dsp_out_valid" type="logic">
+         <obj_property name="ElementShortName">i_dsp_out_valid</obj_property>
+         <obj_property name="ObjectShortName">i_dsp_out_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/controller/o_dsp_in_valid" type="logic">
+         <obj_property name="ElementShortName">o_dsp_in_valid</obj_property>
+         <obj_property name="ObjectShortName">o_dsp_in_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group248" type="group">
+      <obj_property name="label">Kernel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_00" type="array">
+         <obj_property name="ElementShortName">o_kernel_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_00[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_01" type="array">
+         <obj_property name="ElementShortName">o_kernel_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_01[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_02" type="array">
+         <obj_property name="ElementShortName">o_kernel_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_02[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_10" type="array">
+         <obj_property name="ElementShortName">o_kernel_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_10[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_11" type="array">
+         <obj_property name="ElementShortName">o_kernel_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_11[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_12" type="array">
+         <obj_property name="ElementShortName">o_kernel_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_12[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_20" type="array">
+         <obj_property name="ElementShortName">o_kernel_20[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_20[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_21" type="array">
+         <obj_property name="ElementShortName">o_kernel_21[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_21[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/kernel_buf/o_kernel_22" type="array">
+         <obj_property name="ElementShortName">o_kernel_22[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kernel_22[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group249" type="group">
+      <obj_property name="label">Window</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/dut/window_buf/o_window_00" type="array">
+         <obj_property name="ElementShortName">o_window_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_00[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_01" type="array">
+         <obj_property name="ElementShortName">o_window_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_01[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_02" type="array">
+         <obj_property name="ElementShortName">o_window_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_02[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_10" type="array">
+         <obj_property name="ElementShortName">o_window_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_10[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_11" type="array">
+         <obj_property name="ElementShortName">o_window_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_11[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_12" type="array">
+         <obj_property name="ElementShortName">o_window_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_12[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_20" type="array">
+         <obj_property name="ElementShortName">o_window_20[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_20[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_21" type="array">
+         <obj_property name="ElementShortName">o_window_21[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_21[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/dut/window_buf/o_window_22" type="array">
+         <obj_property name="ElementShortName">o_window_22[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_window_22[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
